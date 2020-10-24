@@ -1,0 +1,47 @@
+{
+  "name": "salestrekker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maite Rosalie <maite.rosaliegmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js --mode production",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@testing-library/react": "^11.1.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "css-loader": "^5.0.0",
+    "eslint": "^7.12.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "file-loader": "^6.1.1",
+    "jest": "^26.6.1",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "sass-loader": "^10.0.4",
+    "source-map-loader": "^1.1.1",
+    "style-loader": "^2.0.0",
+    "ts-jest": "^26.4.2",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.3"
+  }
+}
