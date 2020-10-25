@@ -21,7 +21,7 @@ export const ModalSuccess = () => {
           Information sent successfully
         </Text>
         <Text color="color: rgb(140, 168, 188)" textAlign="center" fontWeight={300}>
-          You will be receiving a response from us shortly.
+          Great! now all you have to do is wait. We will be contacting you shortly.
         </Text>
       </Box>
     </Modal>

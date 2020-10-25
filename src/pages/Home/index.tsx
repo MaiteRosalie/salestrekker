@@ -53,7 +53,7 @@ const ButtonB = styled(Box)`
 export const HomePage = () => {
   return (
     <Flex className="HomePage" flexDirection="column" style={{ width: '100%', height: '100%;' }}>
-      <ButtonPrimary width="1" minHeight="3.5rem" as="a" href="#discover">
+      <ButtonPrimary width="1" minHeight="3.5rem" as="a" href="#about">
         Check out SalesTrekker's new product, Commission reporting, a new approach to Sales ›
       </ButtonPrimary>
       <StyledHero id="home">

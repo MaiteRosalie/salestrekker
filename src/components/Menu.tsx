@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 type MenuLinkType = {
-  to: string;
+  href: string;
   content: string;
 };
 const StyledMenuLink = styled(Flex)<{ last: boolean }>`
@@ -19,19 +19,19 @@ const StyledMenuLink = styled(Flex)<{ last: boolean }>`
 const StyledMenu = styled(Flex)``;
 const menuLinks: MenuLinkType[] = [
   {
-    to: '/#home',
+    href: '/#home',
     content: 'Home',
   },
   {
-    to: '/#about',
+    href: '/#about',
     content: 'About',
   },
   {
-    to: '/#pricing',
+    href: '/#pricing',
     content: 'Pricing',
   },
   {
-    to: '/#contact',
+    href: '/#contact',
     content: 'Contact',
   },
 ];
@@ -41,7 +41,7 @@ export const Menu = (props: any) => {
       {menuLinks.map(({ content, ...etc }, i) => (
         <StyledMenuLink
           key={content}
-          as={Link}
+          as="a"
           className="menu"
           last={i === menuLinks.length - 1}
           {...etc}
